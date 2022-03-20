@@ -1,8 +1,10 @@
+# 두 정수를 입력 받는다.
 M = int(input())
 N = int(input())
 
 sieve = [False for i in range(N + 1)]
 
+# 에라토스테네스의 체를 이용
 for i in range(2, int(N ** 0.6)):
     if sieve[i] == False:
         for j in range(2 * i, N + 1, i):
