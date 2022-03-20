@@ -10,6 +10,7 @@ for i in range(2, int(N ** 0.6)):
         for j in range(2 * i, N + 1, i):
             sieve[j] = True
 
+# 결과값으 저장할 리스트를 생성
 result = []
 
 for i in range(M, N + 1):
