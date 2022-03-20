@@ -18,7 +18,7 @@ for i in range(M, N + 1):
         if sieve[i] == False:
             result.append(i)
 
-# 요구사항을 출력!
+# 요구사항을 출력! 합니다!
 if len(result) == 0:
     print(-1)
 else:
