@@ -24,3 +24,4 @@ if len(result) == 0:
 else:
     print(sum(result))
     print(min(result))
+# 프로그램 종료
